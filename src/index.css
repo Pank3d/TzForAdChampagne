@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+.pink_bag{
+   background: #918BE4;
+
+}
+
+.text_bag{
+    color:#918BE4;
+}
