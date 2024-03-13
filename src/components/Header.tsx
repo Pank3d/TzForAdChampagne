@@ -9,7 +9,7 @@ const Header = ({ onClick }: any) => {
       <Marque />
       <div className="pink_bag h-14 flex justify-between   ">
         <div className="flex items-center cursor-pointer">
-          <button className="ml-4" onClick={onClick}>
+          <button className="ml-4">
             <img
               className=" cursor-pointer bg-transparent "
               src="../../public/icon.svg"
@@ -18,7 +18,7 @@ const Header = ({ onClick }: any) => {
           </button>
           <p className=" ml-2 text-white font-bold">ProPhone</p>
         </div>
-        <button className="mr-4">
+        <button className="mr-4" onClick={onClick}>
           <img src="../../public/burg.svg" alt="" />
         </button>
       </div>

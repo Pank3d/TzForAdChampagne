@@ -11,10 +11,12 @@ const Burger = ({ onClick }: any) => {
           />
           <p className=" text_bag font-bold ml-3">ProPhone</p>
         </button>
-        <img
-          src="../../public/14.svg"
-          className="pr-4 w-7 h-6 cursor-pointer"
-        />
+        <button onClick={onClick}>
+          <img
+            src="../../public/14.svg"
+            className="pr-4 w-7 h-6 cursor-pointer"
+          />
+        </button>
       </div>
 
       <ul className=" cursor-pointer">
